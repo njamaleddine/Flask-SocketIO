@@ -9,7 +9,7 @@ from setuptools import setup
 
 setup(
     name='Flask-SocketIO',
-    version='0.6.0',
+    version='1.2',
     url='http://github.com/miguelgrinberg/Flask-SocketIO/',
     license='MIT',
     author='Miguel Grinberg',
@@ -22,8 +22,8 @@ setup(
     platforms='any',
     install_requires=[
         'Flask>=0.9',
-        'gevent>=1.0',
-        'gevent-socketio>=0.3.6'
+        'python-socketio>=0.8.0',
+        'python-engineio>=0.8.2'
     ],
     tests_require=[
         'coverage'
